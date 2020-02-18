@@ -1,0 +1,15 @@
+SCREW : 1turn => 36mm
+        Total Length : 740mm (1480mm)
+Encoder : 100 pulse
+        Total pulse : 3580 ~ 3600
+        Check : high and low edge (1turn : 100 x 2 )
+
+차량 탑재 버전 : 2019.10.14
+ 1. DLS 해제 파워 : 200 +70
+ 2. MVB 통신 불량 : 30초 후 Tx Off
+
+수정해야 할 사항 : 2020.02.16
+ 1. RTC 설정/읽음 확인 => 루틴 내용 변경 (MVB Sink, UART Receive, Fault Save)
+ 2. DLS 해제 파워
+ 3. MVB 통신 불량 => 60초로 변경(2020.02.16)
+
